@@ -136,4 +136,4 @@ app.get("/", (req,res)=>{
 
 app.use("/api", apiRouter);
 
-app.listen(3000, ()=> console.log("hi mom"));
+app.listen(3001, ()=> console.log("hi mom"));
