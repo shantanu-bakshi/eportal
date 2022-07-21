@@ -14,7 +14,7 @@ const Department = require("./model/department");
 const app = express();
 
 
-const uri = "mongodb+srv://m001-student:shantanu261@sandbox.epdsf.mongodb.net/mydb?retryWrites=true&w=majority";
+
 mongoose.connect(uri, {useUnifiedTopology: true, useNewUrlParser: true});
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'mongo connection error'));
